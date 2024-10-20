@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/stack_view_app.dart';
-
+import 'screens/HomePage.dart';
 void main() {
   runApp(MaterialApp(
     title: 'Loan Stack Views',
@@ -8,6 +8,6 @@ void main() {
       primarySwatch: Colors.blue,
       visualDensity: VisualDensity.adaptivePlatformDensity,
     ),
-    home: StackViewApp(),
+    home: MyHomePage(),
   ));
 }
